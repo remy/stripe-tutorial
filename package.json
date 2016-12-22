@@ -1,0 +1,23 @@
+{
+  "name": "stripe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "now": {
+    "alias": "stripe-demo.isthe.link"
+  },
+  "scripts": {
+    "now-start": "NODE_ENV=production node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Remy Sharp",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "express-hbs": "^1.0.3",
+    "stripe": "^4.14.0"
+  }
+}
